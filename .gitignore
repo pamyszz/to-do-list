@@ -1,0 +1,34 @@
+# Ignorar arquivos e pastas de construção
+target/
+!todolist/target/
+!todolist/src/main/**/target/
+!todolist/src/test/**/target/
+build/
+!todolist/src/main/**/build/
+!todolist/src/test/**/build/
+
+# Ignorar arquivos e pastas de IDEs
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+.idea
+*.iws
+*.iml
+*.ipr
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+.vscode/
+
+# Ignorar arquivos temporários e de cache
+.DS_Store
+*.log
+*.tmp
+*.swp
